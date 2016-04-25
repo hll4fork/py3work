@@ -101,7 +101,7 @@ try:
         print(line)         # 4. output lines
         row += 1            # next row
 except IndexError:
-    print("Usage: bigdigit_ans.py number")
+    print("Usage: ch1_ex1.py number")
 except ValueError as err:
     print(err, "in", digits_in)
 
